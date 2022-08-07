@@ -1,0 +1,244 @@
+/*
+ *   Copyright (c) 2022 
+ *   All rights reserved.
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'into';
+    src: url("Into\ The\ Void.ttf");
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    font-family: 'into';
+}
+
+.logo span.active {
+    color: #f9004d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.navbar ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn {
+    background-color: yellow;
+    width: 9%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+
+.btn a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.hamb {
+    display: none;
+}
+
+.heading-section {}
+
+.heading-section h1 {
+    text-transform: capitalize;
+    width: 57%;
+    padding: 40px 20px 20px 95px;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+}
+
+.heading-section p {
+    width: 45%;
+    padding: 5px 0 5px 95px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: lightgrey;
+}
+
+.social-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-section-1,
+.image-section-2 {
+    padding: 50px 0 20px 0;
+}
+
+.image-section-1 img,
+.image-section-2 img {
+    padding: 0 0 0 95px;
+}
+
+.image-section-1 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0 0 0 95px;
+}
+
+.image-section-2 h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 0 0 0 95px;
+}
+
+.image-section-content p {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    width: 85%;
+    font-size: 18px;
+    padding: 5px 0 0 95px;
+}
+
+.image-section-content p {
+    font-family: 'Roboto', sans-serif;
+    color: lightgray;
+    width: 85%;
+    font-size: 18px;
+    padding: 5px 0 0 95px;
+    margin-bottom: 50px;
+}
+
+.grey-section {
+
+    /* width:100%; */
+    background-color: rgb(79, 79, 79);
+}
+
+.grey-section-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content1 {
+    color: lightgray;
+    width: 50%;
+    padding: 5px 0 0 95px;
+}
+
+.content1 h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.content1 p,
+.content2 p {
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content2 {
+    color: lightgray;
+    width: 50%;
+    padding: 5px 0 0 95px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0 0 95px;
+}
+
+.last-section .heading h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.last-section .para p {
+    color: lightgray;
+    margin: 20px 0 10px 0;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.btn-1 {
+    background-color: yellow;
+    width: 9%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.btn-1 a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: rgb(79, 79, 79);
+}
+
+.rows-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.last-logo {
+    color: white;
+    font-family: 'into';
+}
+
+.last-logo span.active {
+    color: #f9004d;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
